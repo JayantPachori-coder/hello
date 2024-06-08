@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="profile">
+            <img src="E:\sinha\jayantportfolio.jpg" alt="Your Photo" class="profile-photo">
+            <h1 class="name">Your Name</h1>
+            <p class="intro">This is a brief introduction about yourself. Highlight your key skills, experience, and professional goals.</p>
+        </div>
+        <div class="buttons">
+            <button class="btn" onclick="showProjects()">Number of Projects</button>
+            <button class="btn" onclick="showContact()">Contact Info</button>
+        </div>
+    </div>
+
+    <div id="projects" class="page hidden">
+        <div class="content">
+            <h2>My Projects</h2>
+            <p>Check out my projects on <a href="https://github.com/your-repository" target="_blank">GitHub</a>.</p>
+            <button class="btn" onclick="goBack()">Back</button>
+        </div>
+    </div>
+
+    <div id="contact" class="page hidden">
+        <div class="content">
+            <h2>Contact Info</h2>
+            <p>Email me at <a href="mailto:your-email@example.com">your-email@example.com</a>.</p>
+            <button class="btn" onclick="goBack()">Back</button>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
