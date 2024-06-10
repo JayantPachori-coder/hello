@@ -7,34 +7,35 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <div class="profile">
-            <img src="jayantportfolio.jpg" alt="Your Photo" class="profile-photo">
-            <h1 class="name">Your Name</h1>
-            <p class="intro">This is a brief introduction about yourself. Highlight your key skills, experience, and professional goals.</p>
+    <header>
+        <div class="header-container">
+            <img src=c:\Users\jayan\OneDrive\Desktop\jp\1701260858699.jpg alt="Your Photo" class="profile-photo">
+            <h1>[Your Name]</h1>
+            <h2>AI/ML Enthusiast & B.Tech in CSE</h2>
         </div>
-        <div class="buttons">
-            <button class="btn" onclick="showProjects()">Number of Projects</button>
-            <button class="btn" onclick="showContact()">Contact Info</button>
-        </div>
-    </div>
-
-    <div id="projects" class="page hidden">
-        <div class="content">
+    </header>
+    <main>
+        <section id="projects">
             <h2>My Projects</h2>
-            <p>Check out my projects on <a href="https://github.com/your-repository" target="_blank">GitHub</a>.</p>
-            <button class="btn" onclick="goBack()">Back</button>
-        </div>
-    </div>
-
-    <div id="contact" class="page hidden">
-        <div class="content">
-            <h2>Contact Info</h2>
-            <p>Email me at <a href="mailto:your-email@example.com">your-email@example.com</a>.</p>
-            <button class="btn" onclick="goBack()">Back</button>
-        </div>
-    </div>
-
-    <script src="scripts.js"></script>
+            <div class="project">
+                <h3>Project Title 1</h3>
+                <p>Description of your first project. Highlight what you did, the technologies used, and the outcomes.</p>
+            </div>
+            <div class="project">
+                <h3>Project Title 2</h3>
+                <p>Description of your second project. Highlight what you did, the technologies used, and the outcomes.</p>
+            </div>
+            <!-- Add more projects as needed -->
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Email: <a href="mailto:your_email@example.com">your_email@example.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn Profile</a></p>
+            <p>GitHub: <a href="https://github.com/yourprofile" target="_blank">GitHub Profile</a></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 [Your Name]. All rights reserved.</p>
+    </footer>
 </body>
 </html>
